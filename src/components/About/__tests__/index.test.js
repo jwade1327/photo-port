@@ -5,7 +5,7 @@ import About from '..';
 
 afterEach(cleanup);
 
-describe('About component', () => {
+describe('About component renders', () => {
     //renders About test
     // First test
     it('renders', () => {
@@ -17,5 +17,5 @@ describe('About component', () => {
         // render About
         const { asFragment } = render(<About />);
         expect(asFragment()).toMatchSnapshot();
-    })
+    });
 })
