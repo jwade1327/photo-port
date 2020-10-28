@@ -3,7 +3,7 @@ import React from 'react';
 const Modal = ({ onClose, currentPhoto }) => {
     const { name, description, category, index } = currentPhoto;
 }
-function Modal() {
+// function Modal() {
     return (
         // JSX
         <div className="modalBackdrop">
@@ -19,6 +19,6 @@ function Modal() {
             </div>
         </div>
     );
-};
+// };
 
 export default Modal;
